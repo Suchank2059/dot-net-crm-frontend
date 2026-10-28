@@ -22,11 +22,11 @@ services:
       - --port
       - "5001"
     networks:
-      - crm-frontend
+      - crm
 
 volumes:
   frontend_node_modules:
 
 networks:
-  crm-frontend:
+  crm:
     name: dot-net-crm-local-network
